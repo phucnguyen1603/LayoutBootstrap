@@ -1,0 +1,30 @@
+#reference {
+	background-color: $color-black;
+	padding:$pd-6 $pd-3;
+	padding-bottom:$pd-6;
+	.reference__caption {
+		color:$color-white;
+		border-bottom:0.1px solid $color-grey;
+		padding:$pd-4 0;
+		margin-bottom:$mg-5;
+		.reference-line{
+			width:20%;
+			height:2px;
+			margin-top:-2px;
+			background-color: $color-white;
+		}
+		h4{
+			padding-top:$pd-5;
+		}
+	}
+	.reference__link {
+		a {
+			color:$color-grey;
+			font-size:$fs-2;
+			text-decoration:none;
+			&:hover {
+				color:$color-blue;
+			}
+		}
+	}
+}

@@ -1,0 +1,62 @@
+@media screen and (min-width:577px) and (max-width:768px) {
+    #header {
+        .navbar {
+            .navbar-brand {
+                margin-left: $mg-6;
+                .navbar__logo {
+                    width: 50px;
+                    padding-right: $pd-1;
+                }
+            }
+            .navbar-collapse--config {
+				margin-right:$mg-6;
+            }
+            .fa--config {
+                font-size: $fs-5;
+            }
+        }
+    }
+    #carousel {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    .carousel-caption {
+                        width: 80%;
+                        text-align: left;
+                        top: 0;
+                        .carousel-line {
+                            width: 12%;
+                            height: 2px;
+                            background-color: $color-white;
+                            margin-top: $mg-3;
+                            margin-bottom: $mg-4;
+                        }
+                        h3 {
+                            margin-bottom: $mg-4;
+                        }
+                        button {
+                            padding: $pd-1 $pd-2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #footer {
+    	.footer__logo {
+    		border:none;
+    	}
+        .footer__navbar {
+            margin-top: $mg-2;
+            position: relative;
+            .footer__top {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                padding-right: 0;
+                padding-left: 655px;
+                top: 35px;
+            }
+        }
+    }
+}

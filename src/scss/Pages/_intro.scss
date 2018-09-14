@@ -1,0 +1,13 @@
+#intro {
+	background-color: $color-white;
+	padding:$pd-5 0;
+	.intro-line {
+		width:5%;
+		height:2px;
+		background-color:$color-black;
+		margin:$mg-4 0;
+	}
+	h3 {
+		margin-bottom:$mg-5;
+	}
+}

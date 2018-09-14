@@ -1,0 +1,52 @@
+#carousel {
+	.carousel-control-prev {
+    width: 7%;
+}
+
+.carousel-control-next {
+    width: 7%;
+}
+    .carousel-inner {
+        .carousel-item {
+        	z-index:-1;
+            .carousel-caption {
+                width: 45%;
+                left: 8%;
+                top: $mg-6;
+                text-align: left;
+                .carousel-line {
+                	width:12%;
+                	height:2px;
+                	background-color: $color-white;
+                	margin-top:$mg-4;
+                	margin-bottom:$mg-5;
+                }
+                h3 {
+                	margin-bottom:$mg-5;
+                }
+                button {
+                	padding:$pd-1 $pd-4;
+                }
+            }
+        }
+    }
+    .carousel-form {
+        	width:100%;
+        	position:absolute;
+        	z-index:10;
+        	bottom:$pd-1+$pd-2;
+        	form {
+        		width:75%;
+        		margin:auto;
+        		.input-group {
+        			height:50px;
+        		}
+        		.input-group-btn {
+        			button {
+        				height:50px;
+        				padding:0 $pd-4;
+        			}
+        		}
+        	}
+        }
+}

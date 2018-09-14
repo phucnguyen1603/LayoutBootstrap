@@ -1,0 +1,187 @@
+    @media only screen and (max-width:576px) {
+        #header {
+            .header__info {
+                display: none;
+            }
+            .navbar {
+                .navbar-brand {
+                    margin: $mg-3;
+                    .navbar__logo {
+                        width: 50px;
+                        padding-right: $pd-1;
+                    }
+                }
+                .navbar-toggler {
+                    margin-right: $mg-3;
+                }
+                .line {
+                    display: none;
+                }
+                .navbar-collapse--config {
+                    background-color: $color-white;
+                    margin-right: 0;
+                    ul {
+                        li {
+                            border-bottom: 1px solid $color-grey;
+                            padding-left: $pd-6;
+                            span {
+                                margin-left: $mg-4;
+                            }
+                        }
+                    }
+                }
+                .fa--config {
+                    font-size: $fs-5;
+                }
+            }
+        }
+        #subMenu {
+            .nav-link {
+                color: $color-grey;
+                padding: $pd-2 $pd-3;
+                font-size: $fs-3;
+                text-align: center;
+                border-bottom: 1px solid $color-grey;
+            }
+            .navbar--config {
+                background-color: $color-white;
+            }
+            .navbar-toggler {
+                font-size: $fs-3;
+            }
+        }
+        #carousel {
+            .carousel {
+                .carousel-inner {
+                    height: 450px;
+                    .carousel-item {
+                        .carousel-caption {
+                            color: $color-black;
+                            width: 80%;
+                            top: 130px;
+                            text-align: left;
+                            .carousel-line {
+                                width: 12%;
+                                height: 2px;
+                                background-color: $color-black;
+                                margin-top: $mg-3;
+                                margin-bottom: $mg-4;
+                            }
+                            h3 {
+                                margin-bottom: $mg-4;
+                            }
+                            button {
+                                padding: $pd-1 $pd-3;
+                            }
+                        }
+                    }
+                }
+                .carousel-control-prev {
+                    top: 0px;
+                    height: 152px;
+                }
+                .carousel-control-next {
+                    top: 0px;
+                    height: 152px;
+                }
+                .carousel-form {
+                    bottom: 0;
+                    form {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        #intro {
+            padding-top: $pd-2;
+            .intro-line {
+                width: 10%;
+                height: 2px;
+                background-color: $color-black;
+                margin-bottom: $mg-2;
+            }
+            h3 {
+                margin-bottom: $mg-3;
+                font-size: $fs-4;
+            }
+            p {
+                font-size: $fs-2;
+            }
+        }
+        #info {
+            padding: $pd-2;
+            span {
+                display: block;
+                margin-bottom: $mg-2;
+            }
+        }
+        #cars-intro {
+            .cars-intro__caption {
+                .cars-intro-line {
+                    width: 10%;
+                    height: 2px;
+                }
+            }
+
+            .carousel-desktop {
+                display: none;
+            }
+            .carousel-mobile {
+                display: block;
+            }
+        }
+        #reference {
+            padding: $pd-3;
+            .reference__caption {
+                padding: $pd-2 0;
+                .reference-line {
+                    width: 10%;
+                }
+            }
+        }
+        #contact {
+            padding-bottom: $pd-2;
+            .contact__caption {
+                .contact-line {
+                    width: 10%;
+                }
+            }
+            i {
+                font-size: $fs-5;
+            }
+        }
+        #footer {
+            .footer__navbar {
+                margin-top: $mg-2;
+                position: relative;
+                .footer__menu {
+                    margin-top: $mg-3;
+                    .nav-item {
+                        .nav-link {
+                            padding-left: 0;
+                            padding-right: $pd-3;
+                        }
+                    }
+                }
+                .footer__language {
+                    font-size: $fs-1;
+                    color: $color-white;
+                }
+                .footer__top {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    padding-right: 0;
+                    padding-left: 249px;
+                }
+            }
+        }
+        #gallery {
+            .gallery__item {
+                .gallery__item__content {
+                    position: static;
+                    padding-bottom:0 !important;
+                }
+            }
+        }
+    }

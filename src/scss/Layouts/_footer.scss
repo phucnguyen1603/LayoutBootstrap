@@ -1,0 +1,40 @@
+#footer {
+    background-color: $color-black;
+    padding: $pd-3;
+    .footer__logo {
+        border-top: 1px solid $color-grey;
+        padding-top: $pd-4;
+        .footer__logo__item {
+            text-align: center;
+        }
+    }
+    .footer__navbar {
+        margin-top: $mg-5;
+        .footer__menu {
+            .nav-item {
+                padding: 0;
+                .nav-link {
+                    font-size: $fs-1;
+                    color: $color-grey;
+                    padding: 0 $pd-2;
+                    &:hover {
+                        color: $color-blue;
+                    }
+                }
+            }
+        }
+        .footer__language {
+            font-size: $fs-1;
+            color: $color-white;
+        }
+        .footer__top {
+            a {
+                color: $color-grey;
+                text-decoration:none;
+                &:hover {
+                    color:$color-blue;
+                }
+            }
+        }
+    }
+}

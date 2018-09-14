@@ -1,0 +1,46 @@
+#contact {
+    background-color: $color-black;
+    padding: $pd-6 $pd-3;
+    color:$color-grey;
+    .contact__caption {
+        color: $color-white;
+        border-bottom: 0.1px solid $color-grey;
+        padding: $pd-4 0;
+        margin-bottom: $mg-5;
+        .contact-line {
+            width: 5%;
+            height: 2px;
+            background-color: $color-white;
+        }
+        h4 {
+            padding-top: $pd-5;
+        }
+    }
+    .form-control {
+        &::placeholder {
+            color: $color-white;
+        }
+    }
+    .input-group-btn {
+    	button {
+    		font-size:$fs-1;
+    		padding:$pd-2 $pd-6;
+    		&:hover{
+    			color:$color-blue;
+    		}
+    	}
+    }
+    p {
+    	font-size:$fs-2;
+    	margin-bottom:$mg-4;
+    }
+    i {
+    	font-size:$fs-7;
+    	padding-right:$pd-5;
+    	padding-bottom:$pd-5;
+    	&:hover {
+    		color:$color-blue;
+    	}
+    }
+}
+

@@ -1,0 +1,58 @@
+#header {
+    background-color: $color-black;
+    color: $color-grey;
+    .header__info {
+        display: block;
+        text-align: right;
+        font-size: $fs-2;
+        margin-right:$mg-6*2;
+        span {
+            &:hover {
+                color: $color-blue;
+                cursor: pointer;
+            }
+        }
+    }
+    .navbar-brand {
+        position: relative;
+        margin-left: $mg-6*2;
+        margin-bottom: $mg-3;
+        span {
+            position: absolute;
+            bottom: -10px;
+            padding: $pd-1;
+            font-size: $fs-3;
+        }
+    }
+    .navbar {
+        padding: $pd-4 $pd-2;
+        .fa--config {
+            font-size: $fs-6;
+        }
+    }
+    .nav-item {
+        padding-left: $pd-2;
+        padding-top: $pd-2;
+        .nav-link--config {
+            color: $color-grey;
+            .fa {
+                font-size: $fs-4;
+            }
+            &:hover {
+                color: $color-blue;
+                cursor: pointer;
+            }
+        }
+    }
+    .navbar-collapse--config {
+        margin-right:$mg-6*2;
+    }
+    .line {
+        display: block;
+        width: 1px;
+        height: 30px;
+        background-color: $color-grey;
+        margin-top: $mg-4;
+        margin-left: $mg-3;
+    }
+}

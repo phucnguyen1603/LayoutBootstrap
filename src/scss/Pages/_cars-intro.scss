@@ -1,0 +1,46 @@
+#cars-intro {
+    background-color: $color-black;
+    padding: $pd-3;
+    .cars-intro__caption {
+        border-bottom: 1px solid $color-grey;
+        padding-bottom: $pd-4;
+        .cars-intro-line {
+            width: 5%;
+            height: 2px;
+            background-color: $color-white;
+            margin-bottom: $mg-4;
+        }
+    }
+    .carousel {
+        margin-top: $mg-5;
+        .carousel-indicators {
+            bottom: -70px;
+            li {
+                width: 7%;
+                height: 1px;
+            }
+            .active {
+                background-color: $color-blue;
+            }
+        }
+        .carousel-inner {
+            margin-bottom: $mg-5;
+            color: $color-white;
+            font-weight: bold;
+            font-size: $fs-4;
+            .carousel-item {
+                text-align: center;
+                img {
+                    width: 170px;
+                    margin:auto;
+                }
+            }
+        }
+    }
+    .carousel-desktop {
+        display: block;
+    }
+    .carousel-mobile {
+        display: none;
+    }
+}
